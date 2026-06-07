@@ -14,6 +14,6 @@ class SearchController < ApplicationController
         @address2 = result["results"][0]["address2"]
         @address3 = result["results"][0]["address3"]
       end
-    end 
+    end
   end
 end
